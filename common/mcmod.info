@@ -1,0 +1,16 @@
+[{
+	"modid": "ctmgen",
+    "name":  "CTM Generator",
+    "description": "Generates survival Complete the Monument maps.",
+    "version":"@VERSION@",
+    "url": "https://github.com/Solonarv/CTMGen",
+    "updateUrl": "",
+    "authorList": [
+        "solonarv"
+    ],
+    "credits": "Solonarv",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "dependencies": []
+}]
