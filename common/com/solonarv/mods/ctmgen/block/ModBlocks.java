@@ -10,11 +10,15 @@ import com.solonarv.mods.ctmgen.lib.Reference;
 public class ModBlocks {
     
     public static BlockControlledSpawner controlledSpawner;
+    public static BlockPlayerSensor playerSensor;
     
     public static void init() {
         controlledSpawner = (BlockControlledSpawner) (new BlockControlledSpawner(CTMGen.cfg.getBlock("controlledSpawner", 600).getInt())
                 .setHardness(5.0F).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("controlledSpawner").func_111022_d("mob_spawner"));
         createItemBlocks();
+        
+        playerSensor = (BlockPlayerSensor) (new BlockPlayerSensor(CTMGen.cfg.getBlock("playerSensor", 601).getInt())
+                .setHardness(5.0F).setStepSound(Block.soundMetalFootstep).setUnlocalizedName("playerSensor"));
     }
     
     public static void createItemBlocks() {
