@@ -36,6 +36,8 @@ public class CTMGen {
         ModBlocks.init();
         ModItems.initRecipes();
         TileEntities.register();
+        
+        proxy.registerRenderers();
     }
     
     @EventHandler

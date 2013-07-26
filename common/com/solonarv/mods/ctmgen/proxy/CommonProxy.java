@@ -1,5 +1,5 @@
 package com.solonarv.mods.ctmgen.proxy;
 
-public class CommonProxy {
-    
+public abstract class CommonProxy {
+    public abstract void registerRenderers();
 }
